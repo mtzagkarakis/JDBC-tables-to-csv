@@ -3,7 +3,7 @@ package mt.examples.JDBCtablestocsv.application;
 import lombok.SneakyThrows;
 import mt.examples.JDBCtablestocsv.domain.TableRepresentation;
 
-public interface CsvWriter {
+public interface FileWriter {
     @SneakyThrows
-    void writeToCsv(TableRepresentation tableRepresentation);
+    void writeToFile(TableRepresentation tableRepresentation);
 }

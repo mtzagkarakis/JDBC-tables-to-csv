@@ -19,7 +19,8 @@ target/
 *.iml
 *.ipr
 
-csv
+/csv
+/xls
 
 ### NetBeans ###
 /nbproject/private/
